@@ -94,14 +94,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.multiplayer.center": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.uielements": "1.0.0"
-      }
-    },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
       "depth": 0,
@@ -109,21 +101,11 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.package-validation-suite": {
-      "version": "0.22.0-preview",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.nuget.mono-cecil": "0.1.6-preview.2"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.probuilder": {
-      "version": "6.0.5",
+      "version": "5.2.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "17.0.3",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.settings-manager": "1.0.3"
@@ -135,14 +117,12 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.burst": "1.8.14",
-        "com.unity.mathematics": "1.3.2",
+        "com.unity.mathematics": "1.2.4",
         "com.unity.ugui": "2.0.0",
-        "com.unity.collections": "2.4.3",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.terrain": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.rendering.light-transport": "1.0.1"
+        "com.unity.rendering.light-transport": "1.0.0"
       }
     },
     "com.unity.render-pipelines.universal": {
@@ -150,17 +130,10 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "17.0.3",
-        "com.unity.shadergraph": "17.0.3",
-        "com.unity.render-pipelines.universal-config": "17.0.3"
-      }
-    },
-    "com.unity.render-pipelines.universal-config": {
-      "version": "17.0.3",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "17.0.3"
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.burst": "1.8.9",
+        "com.unity.render-pipelines.core": "16.0.6",
+        "com.unity.shadergraph": "16.0.6"
       }
     },
     "com.unity.rendering.light-transport": {
@@ -168,9 +141,9 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.collections": "2.2.0",
+        "com.unity.collections": "1.4.0",
         "com.unity.mathematics": "1.2.4",
-        "com.unity.modules.terrain": "1.0.0"
+        "com.unity.render-pipelines.core": "16.0.1"
       }
     },
     "com.unity.searcher": {
@@ -192,7 +165,7 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "17.0.3",
+        "com.unity.render-pipelines.core": "16.0.6",
         "com.unity.searcher": "4.9.2"
       }
     },
