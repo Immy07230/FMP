@@ -1,6 +1,6 @@
 # FMP
 ## FMP
-### FMP
+### Final Major Project
 
 basic text
  
